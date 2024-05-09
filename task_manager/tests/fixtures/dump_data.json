@@ -1,0 +1,49 @@
+{
+    "users": {
+        "new_user": {
+            "first_name": "User1",
+            "last_name": "User1",
+            "username": "User1",
+            "password1": "User1r@$$0",
+            "password2": "User1r@$$0"
+        },
+        "wrong_update_user": {
+            "first_name": "User2",
+            "last_name": "User2",
+            "username": "User2",
+            "password1": "wro",
+            "password2": "wrongpass"
+        },
+        "success_update_user": {
+            "first_name": "User2",
+            "last_name": "User2",
+            "username": "User2",
+            "password1": "wro",
+            "password2": "wro"
+        }
+    },
+    "statuses": {
+        "new_status": {
+            "name": "nevermind"
+        },
+        "update_status": {
+            "name": "on hold"
+        }
+    },
+    "labels": {
+        "new_label": {
+            "name": "New label"
+        },
+        "update_label": {
+            "name": "forget"
+        }
+    },
+    "tasks": {
+        "new_task": {
+            "name": "Finish project"
+        },
+        "update_task": {
+            "name": "New Task 1"
+        }
+    }
+}

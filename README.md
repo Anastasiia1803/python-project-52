@@ -1,8 +1,9 @@
 # Task manager
 __"Task manager__ -  сайт, который позволяет распределять задачи среди пользователей и следить за их выполнением.
 ![Hexlet Badge](https://img.shields.io/badge/Hexlet-116EF5?logo=hexlet&logoColor=fff&style=for-the-badge)
-[![Actions Status](https://github.com/Anastasiia1803/python-project-52/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Anastasiia1803/python-project-83/actions)
-[![Actions Status](https://github.com/Anastasiia1803/python-project-52/actions/workflows/linter.yml/badge.svg)](https://github.com/Anastasiia1803/python-project-83/actions)
+[![Actions Status](https://github.com/Anastasiia1803/python-project-52/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Anastasiia1803/python-project-52/actions)
+[![Actions Status](https://github.com/Anastasiia1803/python-project-52/actions/workflows/linter.yml/badge.svg)](https://github.com/Anastasiia1803/python-project-52/actions)
+[![Actions Status](https://github.com/Anastasiia1803/python-project-52/actions/workflows/tests.yml/badge.svg)](https://github.com/Anastasiia1803/python-project-52/actions)
 
 ***
 ## Перед установкой

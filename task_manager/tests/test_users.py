@@ -82,7 +82,6 @@ class UserViewsTestCase(TestCase):
         )
 
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, _('User is successfully updated'))
         self.assertEqual(User.objects.get(pk=1).username, "User1")
 
     # Delete

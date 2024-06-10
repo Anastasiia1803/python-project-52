@@ -1,11 +1,11 @@
 {
     "users": {
         "new_user": {
-            "first_name": "User1",
-            "last_name": "User1",
-            "username": "User1",
-            "password1": "User1r@$$0",
-            "password2": "User1r@$$0"
+            "first_name": "User4",
+            "last_name": "User4",
+            "username": "User4",
+            "password1": "User4r@$$0",
+            "password2": "User4r@$$0"
         },
         "wrong_update_user": {
             "first_name": "User2",

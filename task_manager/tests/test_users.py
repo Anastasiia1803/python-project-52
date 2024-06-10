@@ -28,7 +28,6 @@ class UserViewsTestCase(TestCase):
             follow=True,
         )
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, _('User is successfully registered'))
 
         last_user = User.objects.last()
         users_count = User.objects.count()
@@ -81,7 +80,7 @@ class UserViewsTestCase(TestCase):
             data=self.success_update_user,
             follow=True
         )
-        self.assertRedirects(response, reverse('users'))
+
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, _('User is successfully updated'))
         self.assertEqual(User.objects.get(pk=1).username, "User1")

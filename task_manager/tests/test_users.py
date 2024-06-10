@@ -135,7 +135,7 @@ class UserViewsTestCase(TestCase):
         )
         self.assertTemplateUsed(response, 'delete_form.html')
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'Clark Kent')
+        self.assertContains(response, 'User3 User3_last')
 
         response = self.client.post(
             reverse('user_delete', kwargs={'pk': 3}),

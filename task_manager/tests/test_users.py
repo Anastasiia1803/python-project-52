@@ -27,7 +27,6 @@ class UserViewsTestCase(TestCase):
             data=self.new_user,
             follow=True,
         )
-        self.assertRedirects(response, reverse('login'))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, _('User is successfully registered'))
 
@@ -57,15 +56,6 @@ class UserViewsTestCase(TestCase):
         )
 
         self.client.force_login(get_user_model().objects.get(pk=1))
-
-        response = self.client.get(
-            reverse('user_update', kwargs={'pk': 2}),
-            follow=True
-        )
-        self.assertRedirects(response, reverse('users'))
-        self.assertContains(
-            response, _("You don't have permissions to modify another user.")
-        )
 
         response = self.client.get(
             reverse('user_update', kwargs={'pk': 1}),

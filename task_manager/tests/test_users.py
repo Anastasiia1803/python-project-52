@@ -31,8 +31,8 @@ class UserViewsTestCase(TestCase):
 
         last_user = User.objects.last()
         users_count = User.objects.count()
-        self.assertEqual(last_user.first_name, "User1")
-        self.assertEqual(last_user.username, "User1")
+        self.assertEqual(last_user.first_name, "User3")
+        self.assertEqual(last_user.username, "User3")
         self.assertEqual(users_count, 4)
 
     # Read
